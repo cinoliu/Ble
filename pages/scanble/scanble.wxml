@@ -1,0 +1,14 @@
+
+<view >设备列表</view>
+<view  wx:for="{{list}}" wx:for-item="item" 
+         data-title="{{item.deviceId}}" 
+         data-name="{{item.name}}" 
+         data-advertisData="{{item.advertisServiceUUIDs}}" 
+         wx:key="{{item.deviceId}}"
+         bindtap="bindViewTap">
+      <view  class="item">
+    {{item.deviceId}} -----{{item.name}}
+    <view  class="ss"/>
+      </view>
+       
+</view>

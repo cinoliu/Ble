@@ -1,0 +1,5 @@
+
+<button type="primary" bindtap="bindViewTap"> 发送指令 </button>
+
+
+<view>结果：{{result}}</view>

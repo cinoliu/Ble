@@ -1,0 +1,12 @@
+.ss {
+   background-color: blue;
+   height: 1rpx;
+   width: 100%;
+}
+
+.item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+     height: 130rpx;
+     width: 100%;
+}
